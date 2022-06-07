@@ -66,6 +66,12 @@ $(function () {
     });
 
 
+    $('.popup button').on('click', function () {
+        $(this).parent().hide();
+
+    })
+
+
 
 })
 
